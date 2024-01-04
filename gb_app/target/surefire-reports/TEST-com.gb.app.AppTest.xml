@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.gb.app.AppTest" time="0.025" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.gb.app.AppTest" time="0.028" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1251"/>
-    <property name="java.class.path" value="C:\Users\dl\IdeaProjects\gb-spring1\gb_app\target\test-classes;C:\Users\dl\IdeaProjects\gb-spring1\gb_app\target\classes;C:\Users\dl\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\dl\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.class.path" value="C:\Users\dl\IdeaProjects\gb-spring1\gb_app\target\test-classes;C:\Users\dl\IdeaProjects\gb-spring1\gb_app\target\classes;C:\Users\dl\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\dl\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\dl\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\dl\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\dl\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\dl\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\dl\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\dl\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\dl\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="GB"/>
     <property name="sun.boot.library.path" value="c:\java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\temp\surefire16490026012903691261\surefirebooter1292984299831323011.jar C:\temp\surefire16490026012903691261 2024-01-04T19-18-20_979-jvmRun1 surefire17013803200578824662tmp surefire_011510944453873384871tmp"/>
+    <property name="sun.java.command" value="C:\temp\surefire4739545886456193532\surefirebooter10610486046899882536.jar C:\temp\surefire4739545886456193532 2024-01-04T19-30-31_883-jvmRun1 surefire12295124932996133054tmp surefire_04008692653312849259tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\dl\IdeaProjects\gb-spring1\gb_app\target\test-classes;C:\Users\dl\IdeaProjects\gb-spring1\gb_app\target\classes;C:\Users\dl\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\dl\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\dl\IdeaProjects\gb-spring1\gb_app\target\test-classes;C:\Users\dl\IdeaProjects\gb-spring1\gb_app\target\classes;C:\Users\dl\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\dl\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\dl\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\dl\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\dl\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\dl\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\dl\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\dl\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\dl\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\dl"/>
     <property name="user.language" value="en"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\temp\surefire16490026012903691261\surefirebooter1292984299831323011.jar"/>
+    <property name="surefire.real.class.path" value="C:\temp\surefire4739545886456193532\surefirebooter10610486046899882536.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.7+8-LTS-224"/>
@@ -56,5 +56,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="com.gb.app.AppTest" time="0.005"/>
+  <testcase name="shouldAnswerWithTrue" classname="com.gb.app.AppTest" time="0.001"/>
 </testsuite>
